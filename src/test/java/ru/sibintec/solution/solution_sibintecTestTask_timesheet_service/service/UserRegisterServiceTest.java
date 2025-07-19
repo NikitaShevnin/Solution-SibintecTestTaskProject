@@ -1,4 +1,4 @@
-package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.java.ru.sibintec.timesheet.service;
+package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.service;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,7 +8,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.model.UserAccount;
 import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.UserAccountRepository;
-import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.service.UserRegisterService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;

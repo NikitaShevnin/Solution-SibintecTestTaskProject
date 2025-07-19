@@ -1,4 +1,4 @@
-package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.java.ru.sibintec.timesheet.controller;
+package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

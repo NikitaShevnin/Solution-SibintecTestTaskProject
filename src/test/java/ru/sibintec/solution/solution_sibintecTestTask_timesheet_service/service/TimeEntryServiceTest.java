@@ -1,4 +1,4 @@
-package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.java.ru.sibintec.timesheet.service;
+package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,6 @@ import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.model.Em
 import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.model.TimeEntry;
 import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.EmployeeRepository;
 import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.TimeEntryRepository;
-import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.service.TimeEntryService;
 
 import java.time.LocalDate;
 import java.util.Optional;
