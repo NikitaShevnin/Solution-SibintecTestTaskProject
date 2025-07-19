@@ -1,6 +1,7 @@
-package ru.sibintec.timesheet.service;
+package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.java.ru.sibintec.timesheet.service;
 
 import org.junit.jupiter.api.Test;
+import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.service.ReportService;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
@@ -11,9 +12,9 @@ import static org.mockito.Mockito.mock;
 class ReportServiceTest {
 
     private final ReportService service = new ReportService(
-            mock(ru.sibintec.timesheet.repository.TimeEntryRepository.class),
-            mock(ru.sibintec.timesheet.repository.EmployeeRepository.class),
-            mock(ru.sibintec.timesheet.repository.DepartmentRepository.class));
+            mock(ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.TimeEntryRepository.class),
+            mock(ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.EmployeeRepository.class),
+            mock(ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.DepartmentRepository.class));
 
     /** Проверка, что методы формируют pdf. */
     @Test

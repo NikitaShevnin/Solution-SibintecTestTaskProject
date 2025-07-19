@@ -1,4 +1,4 @@
-package ru.sibintec.timesheet.service;
+package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.java.ru.sibintec.timesheet.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -6,10 +6,11 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ru.sibintec.timesheet.model.Employee;
-import ru.sibintec.timesheet.model.TimeEntry;
-import ru.sibintec.timesheet.repository.EmployeeRepository;
-import ru.sibintec.timesheet.repository.TimeEntryRepository;
+import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.model.Employee;
+import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.model.TimeEntry;
+import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.EmployeeRepository;
+import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.repository.TimeEntryRepository;
+import ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.service.TimeEntryService;
 
 import java.time.LocalDate;
 import java.util.Optional;
@@ -30,6 +31,7 @@ class TimeEntryServiceTest {
     private EmployeeRepository employeeRepository;
     @InjectMocks
     private TimeEntryService service;
+
     private Employee employee;
 
     @BeforeEach
