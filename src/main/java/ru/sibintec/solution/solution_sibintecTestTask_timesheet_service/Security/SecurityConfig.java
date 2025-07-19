@@ -1,4 +1,4 @@
-package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.Security;
+package ru.sibintec.solution.solution_sibintecTestTask_timesheet_service.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
